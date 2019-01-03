@@ -1,0 +1,19 @@
+{
+  "name": "gui",
+  "version": "1.0.0",
+  "description": " this is the frontend for the bootup web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omar-jandali/Bootup-Frontend.git"
+  },
+  "author": "Omar Jandali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omar-jandali/Bootup-Frontend/issues"
+  },
+  "homepage": "https://github.com/omar-jandali/Bootup-Frontend#readme"
+}
