@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Topbar from './topBar/Topbar';
 import Axios from 'axios';
 
 export default class App extends Component {
@@ -28,6 +29,7 @@ export default class App extends Component {
   render() {
     return (
       <div className="App">
+        <Topbar />
         Hello
       </div>
     );
