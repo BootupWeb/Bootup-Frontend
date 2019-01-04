@@ -19,7 +19,7 @@ export default class Topbar extends Component {
                 <form className="search-form" action="">
                     <label className="search-label">
                         <input className="search-input" type="text" name="search" value="Search"/>
-                        <input className="search-submit" type="submit" value="submit" name="submit"/>
+                        {/* <input className="search-submit" type="submit" value="submit" name="submit"/> */}
                     </label>
                 </form>
                 <div className="quick-menu-container">
