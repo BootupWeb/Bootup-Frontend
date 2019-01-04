@@ -23,10 +23,10 @@ export default class Topbar extends Component {
                     </label>
                 </form>
                 <div className="quick-menu-container">
-                    <img src="http://via.placeholder.com/40x40" alt=""/>
-                    <img src="http://via.placeholder.com/40x40" alt=""/>
-                    <img src="http://via.placeholder.com/40x40" alt=""/>
-                    <img src="http://via.placeholder.com/40x40" alt=""/>
+                    <img src="http://via.placeholder.com/40x40" alt="" className="quick-activity"/>
+                    <img src="http://via.placeholder.com/40x40" alt="" className="quick-messages"/>
+                    <img src="http://via.placeholder.com/40x40" alt="" className="quick-profile"/>
+                    <img src="http://via.placeholder.com/40x40" alt="" className="quick-logout"/>
                 </div>
             </div>
         )
