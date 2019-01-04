@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Topbar from './topBar/Topbar';
+import SideBar from './sideBar/Sidebar'
 import Axios from 'axios';
 
 export default class App extends Component {
@@ -30,6 +31,7 @@ export default class App extends Component {
     return (
       <div className="App">
         <Topbar />
+        <SideBar />
         Hello
       </div>
     );

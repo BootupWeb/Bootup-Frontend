@@ -7,11 +7,11 @@ import Legal from './Legal';
 export default function SideBar(props){
 
     return(
-        <div>
+        <div className="sidebar-container">
             <UserTab />
-            <CategoryTab />
+            {/* <CategoryTab />
             <CampaignTab />
-            <Legal />
+            <Legal /> */}
         </div>
     )
 
