@@ -5,14 +5,14 @@ import Name from '../../static/images/bootup-name.png';
 export default class Topbar extends Component {
     constructor(props){
         super(props);
-        this.setState({
+        this.state = {
             search: ''
-        })
+        }
     }
 
     render(){
         return(
-            <div class="top-bar">
+            <div className="top-bar">
                 <div className="logo-container">
                     <img className="top-bar-name" src={Name} alt=""/>
                 </div>
