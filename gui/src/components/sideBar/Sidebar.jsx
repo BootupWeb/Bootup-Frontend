@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import UserTab from './UserTab';
 import CategoryTab from './CategoryTab';
 import CampaignTab from './CampaignTab';
