@@ -12,7 +12,7 @@ export default class App extends Component {
     Axios.defaults.baseURL = "http://127.0.0.1:8000/api/"
   }
 
-  componentWillMount(){
+  componentDidMount(){
     this.fetchDetails();
   }
 
