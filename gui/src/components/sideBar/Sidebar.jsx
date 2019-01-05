@@ -11,7 +11,7 @@ export default function SideBar(props){
             <UserTab />
             <CampaignTab />
             <CategoryTab />
-            {/*<Legal /> */}
+            <Legal /> 
         </div>
     )
 
