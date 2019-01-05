@@ -9,8 +9,8 @@ export default function SideBar(props){
     return(
         <div className="sidebar-container">
             <UserTab />
-            {/* <CategoryTab />
             <CampaignTab />
+            {/*<CategoryTab />
             <Legal /> */}
         </div>
     )

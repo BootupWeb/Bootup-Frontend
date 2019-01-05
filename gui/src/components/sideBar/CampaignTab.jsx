@@ -6,16 +6,16 @@ export default function CampaignTab(props){
         <div className="campaign-tab-container">
             <div className="campaign-content">
                 <div className="featured-image-container">
-                    <img className="featured-image" src="http://via.placeholder.com/120x240" alt=""/>
+                    <img className="featured-image" src="http://via.placeholder.com/250x120" alt=""/>
                 </div>
                 <div className="campaign-summary">
-                    <span className="campagin-name">Name</span>
-                    <span className="campaign-category">category</span>
-                    <span className="campaign-slug">slug</span>
+                    <span className="campagin-name">Name</span> <br/>
+                    <span className="campaign-category">category</span> <br/>
+                    <span className="campaign-slug">slug</span> 
                 </div>
                 <div className="asking-container">
                     <div classname="asking-content">
-                        <span className="asking-equity">equity</span>
+                        <span className="asking-equity">equity</span> <br/>
                         <span className="asking-amount">amount</span>
                     </div>
                 </div>
