@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import CampaignDetails from './detailsTab/campaignDetails';
 import QuickDetails from './detailsTab/quickDetails';
 import FounderDetails from './detailsTab/founderDetails';
+import MediaDetails from './detailsTab/mediaDetails';
 
 export default class Content extends Component {
 
@@ -20,6 +21,7 @@ export default class Content extends Component {
                 <CampaignDetails />
                 <QuickDetails />
                 <FounderDetails />
+                <MediaDetails />
             </div>
         )
 
