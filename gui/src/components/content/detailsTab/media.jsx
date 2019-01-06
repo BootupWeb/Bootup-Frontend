@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function MediaDetails(props){
+export default function Media(props){
     // two sizes are 650x432 && 1920x1080
     return(
         <div className="media-details-container">

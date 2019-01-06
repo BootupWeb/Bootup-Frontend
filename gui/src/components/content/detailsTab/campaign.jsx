@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function CampaignDetauls(props){
+export default function Campaign(props){
 
     return(
         <div className="campaign-details-container">

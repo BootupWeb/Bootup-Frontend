@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function quickDetails(props){
+export default function Quick(props){
 
     return(
         <div className="quick-details-container">

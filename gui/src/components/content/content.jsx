@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Details from './detailsTab/details';
+import Details from './detailsTab/detailsTab';
 import Media from './mediaTab/mediaTab';
 import Main from './main/mainTab'
 

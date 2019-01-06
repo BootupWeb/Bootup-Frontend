@@ -1,7 +1,7 @@
 import React from 'react';
 import FounderListItem from './founderListItem';
 
-export default function FounderDetails(props){
+export default function Founder(props){
 
     return(
         <div classname="founder-details-container">
