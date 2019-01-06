@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import CampaignDetails from './detailsTab/campaignDetails';
-import QuickDetails from './detailsTab/quickDetails';
-import FounderDetails from './detailsTab/founderDetails';
-import MediaDetails from './detailsTab/mediaDetails';
+import Details from './detailsTab/details';
 
 export default class Content extends Component {
 
@@ -18,10 +15,7 @@ export default class Content extends Component {
 
         return(
             <div className="details-container">
-                <CampaignDetails />
-                <QuickDetails />
-                <FounderDetails />
-                <MediaDetails />
+                <Details />
             </div>
         )
 
