@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Details from './detailsTab/details';
-import Media from './detailsTab/mediaTab/mediaTab';
+import Media from './mediaTab/mediaTab';
+import Main from './main/mainTab'
 
 export default class Content extends Component {
 
@@ -18,6 +19,7 @@ export default class Content extends Component {
             <div className="details-container">
                 <Details />
                 <Media />
+                <Main />
             </div>
         )
 

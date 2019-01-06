@@ -14,7 +14,7 @@ export default class Main extends Component {
         return(
             <div className="main-container">
                 <div className="main-content">
-
+                    <Story />
                 </div>
             </div>
         )
