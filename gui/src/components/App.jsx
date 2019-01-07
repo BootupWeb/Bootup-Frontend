@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import 'antd/dist/antd.css';
 import Topbar from './topBar/Topbar';
 import SideBar from './sideBar/Sidebar';
 import Content from './content/content';
