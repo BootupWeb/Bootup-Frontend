@@ -5,7 +5,7 @@ import SideBar from './sideBar/Sidebar';
 import Content from './content/content';
 import Axios from 'axios';
 
-import AppCss from '../css/App.css';
+import styles from '../css/App.css';
 
 export default class App extends Component {
 
@@ -33,7 +33,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <div className={AppCss}>
+      <div>
         <Topbar />
         <SideBar />
         <Content />
