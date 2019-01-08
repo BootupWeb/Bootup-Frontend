@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 // import Logo from '../../../static/images/bootup-logo.png';
+import Styling from '../../css/TopBar/Topbar.css';
 import Name from '../../static/images/bootup-name.png';
+
+import { Row, Col } from 'antd';
 
 export default class Topbar extends Component {
     constructor(props){
@@ -12,10 +15,14 @@ export default class Topbar extends Component {
 
     render(){
         return(
-            <div className="top-bar">
-                <div className="logo-container">
-                    <img className="top-bar-name" src={Name} alt=""/>
-                </div>
+            <div className="top-bar-container">
+                <Row className={Styling.topBarContainer}>
+                    <Col className={Styling.imageContainer} span={6}>
+                        <img className={Styling.nameImage} src={Name} alt=""/>
+                    </Col>
+                    <Col span={12}></Col>
+                    <Col span={6}></Col>
+                </Row>
                 <form className="search-form" action="">
                     <label className="search-label">
                         <input className="search-input" type="text" name="search" value="Search"/>
