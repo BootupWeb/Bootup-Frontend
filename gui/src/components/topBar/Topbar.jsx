@@ -9,6 +9,17 @@ export default class Topbar extends Component {
             search: ''
         }
     }
+    
+    currentSearch(e){
+        console.log(e.target.value)
+    }
+
+    searchRecords(){
+        // search the database for all campagins containing the word that is searched
+        // create a small window that has quick search with a debouncer 
+        // submit / enter shoudl change what is showin in the content if they click on a tab
+        // enter button should re render with a full search results
+    }
 
     render(){
         return(
@@ -18,7 +29,8 @@ export default class Topbar extends Component {
                 </div>
                 <form className="search-form" action="">
                     <label className="search-label">
-                        <input className="search-input" type="text" name="search" value="Search"/>
+                        <input onChange={(e) => {this.currentSearch(e)}} className="search-input" type="text" name="search"
+                        />
                         {/* <input className="search-submit" type="submit" value="submit" name="submit"/> */}
                     </label>
                 </form>
